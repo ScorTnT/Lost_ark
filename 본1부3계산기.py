@@ -209,10 +209,8 @@ class MainWindow(QWidget):
             # ✅ `raid_page` 내의 모든 입력 필드(`QLineEdit`) 초기화
             for widget in self.raid_page.findChildren(QLineEdit):
                 widget.clear()
-
         # ✅ "계산" 버튼 다시 비활성화
         self.calc_button.setEnabled(False)
-        print(self.raid_type, self.selected_sub)  # 초기값 출력
 
     def setupButton(self, button):
         button.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)

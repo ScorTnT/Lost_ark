@@ -140,9 +140,9 @@ def calculate_profit(materials, output_name, crafting_cost=352, output_quantity=
 
 # 보유한 재료 정보
 materials = {
-    "재료1": (86, 16689),
-    "재료2": (45, 8393),
-    "재료3": (33, 2492)
+    "재료1": (86, 13400),
+    "재료2": (45, 7038),
+    "재료3": (33, 5145)
 }
 output_name = "아비도스 융화 재료"
 
